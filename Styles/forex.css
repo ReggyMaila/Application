@@ -1,0 +1,52 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+#live-rates, #currency-converter, #education {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+select, input, button {
+    padding: 10px;
+    margin: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+    button:hover {
+        background-color: #45a049;
+    }
+
+.card {
+    background-color: #e2e2e2;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+#live-ticker p {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+}

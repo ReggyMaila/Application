@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property Services</title>
+    <link rel="stylesheet" href="Styles/property.css">
+</head>
+<body>
+    <header>
+        <h1>Find Your Dream Property Today!</h1>
+    </header>
+
+    <!-- Property Filter -->
+    <section id="filter">
+        <h2>Filter Properties</h2>
+        <form id="propertyFilterForm">
+            <label for="price">Price:</label>
+            <input type="range" id="price" name="price" min="0" max="1000000">
+            <span id="priceValue">0</span>
+
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location" placeholder="City, Neighborhood">
+
+            <label for="type">Type:</label>
+            <select id="type" name="type">
+                <option value="apartment">Apartment</option>
+                <option value="house">House</option>
+                <option value="commercial">Commercial</option>
+            </select>
+
+            <button type="submit">Filter</button>
+        </form>
+    </section>
+
+    <!-- Property Listings -->
+    <section id="property-listings">
+        <h2>Property Listings</h2>
+        <div id="properties">
+            <!-- Properties will be dynamically listed here -->
+        </div>
+    </section>
+
+    <!-- Property Inquiry Form -->
+    <section id="inquiry">
+        <h2>Inquire About a Property</h2>
+        <form id="inquiryForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit Inquiry</button>
+        </form>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog">
+        <h2>Blog</h2>
+        <div id="blog-posts">
+            <!-- Blog posts will be dynamically listed here -->
+        </div>
+    </section>
+
+    <script src="prop.js"></script>
+</body>
+</html>

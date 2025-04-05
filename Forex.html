@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forex Services</title>
+    <link rel="stylesheet" href="Styles/forex.css">
+</head>
+<body>
+    <header>
+        <h1>Forex Services</h1>
+        <p>Stay Updated with Live Forex Rates.</p>
+    </header>
+
+    <section id="live-rates">
+        <h2>Live Forex Rates</h2>
+        <div id="live-ticker">
+            <p>Loading...</p>
+        </div>
+    </section>
+
+    <section id="currency-converter">
+        <h2>Currency Converter</h2>
+        <form id="converter-form">
+            <select id="currency-from">
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="GBP">GBP</option>
+                <option value="JPY">JPY</option>
+                <!-- Add more currencies as needed -->
+            </select>
+            <input type="number" id="amount" placeholder="Amount" required>
+            <select id="currency-to">
+                <option value="EUR">EUR</option>
+                <option value="USD">USD</option>
+                <option value="GBP">GBP</option>
+                <option value="JPY">JPY</option>
+                <!-- Add more currencies as needed -->
+            </select>
+            <button type="submit">Convert</button>
+            <p id="conversion-result"></p>
+        </form>
+    </section>
+
+    <section id="education">
+        <h2>Educational Resources</h2>
+        <div class="card">
+            <h3>Forex Basics</h3>
+            <p>Learn the fundamentals of Forex trading.</p>
+        </div>
+        <div class="card">
+            <h3>How to Read Charts</h3>
+            <p>Understand the basics of chart analysis and indicators.</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

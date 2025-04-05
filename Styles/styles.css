@@ -1,0 +1,143 @@
+﻿/* Global Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header */
+.header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #2575fc;
+    color: white;
+}
+
+.logo img {
+    width: 120px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+    .nav-links li {
+        display: inline;
+    }
+
+    .nav-links a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
+
+/* Hero Section */
+.hero-section {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+}
+
+    .hero-section h1 {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+    }
+
+.cta-buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+    color: #2575fc;
+    transition: background-color 0.3s;
+}
+
+    .cta-buttons button:hover {
+        background-color: #6a11cb;
+        color: white;
+    }
+
+/* Search Bar */
+.search-bar {
+    text-align: center;
+    margin: 20px;
+}
+
+    .search-bar input {
+        width: 60%;
+        padding: 10px;
+        font-size: 1rem;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+
+    .search-bar button {
+        padding: 10px 20px;
+        font-size: 1rem;
+        background-color: #2575fc;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+/* Services Section */
+.services-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.service-tile {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+    .service-tile:hover {
+        transform: scale(1.05);
+        border-color: #2575fc;
+    }
+
+    .service-tile img {
+        width: 80px;
+        margin-bottom: 10px;
+    }
+
+/* Footer */
+.footer {
+    background-color: #2575fc;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.social-media a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+    .social-media a:hover {
+        text-decoration: underline;
+    }

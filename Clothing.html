@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing Shop</title>
+    <link rel="stylesheet" href="Styles/clothing.css">
+
+</head>
+<body>
+
+    <header>
+        <h1>Clothing Shop</h1>
+        <div class="tagline">Shop the Latest Trends in Fashion.</div>
+    </header>
+
+    <div class="filters">
+        <select name="category" id="category">
+            <option value="men">Men</option>
+            <option value="women">Women</option>
+            <option value="kids">Kids</option>
+        </select>
+
+        <div>
+            <label for="size">Size:</label>
+            <select id="size" name="size">
+                <option value="s">S</option>
+                <option value="m">M</option>
+                <option value="l">L</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="color">Color:</label>
+            <input type="color" id="color" name="color">
+        </div>
+
+        <div>
+            <label for="price">Price:</label>
+            <input type="number" id="price" name="price" placeholder="Max price">
+        </div>
+    </div>
+
+    <div class="categories">
+        <div class="category">Men</div>
+        <div class="category">Women</div>
+        <div class="category">Kids</div>
+    </div>
+
+    <div class="seasonal">
+        <p>Check Out Our Seasonal Collection! <a href="#">Shop Now</a></p>
+    </div>
+
+    <div class="product-grid">
+        <!-- Sample Product Cards -->
+        <div class="product-card">
+            <img src="https://via.placeholder.com/150" alt="Product">
+            <h3>Product Name</h3>
+            <p class="price">$39.99</p>
+        </div>
+        <div class="product-card">
+            <img src="https://via.placeholder.com/150" alt="Product">
+            <h3>Product Name</h3>
+            <p class="price">$29.99</p>
+        </div>
+        <div class="product-card">
+            <img src="https://via.placeholder.com/150" alt="Product">
+            <h3>Product Name</h3>
+            <p class="price">$49.99</p>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gadgets - Tech You’ll Love, Delivered Fast</title>
+    <link rel="stylesheet" href="Styles/gadget.css">
+</head>
+<body>
+    <header>
+        <h1>Gadgets</h1>
+        <p>Tech You’ll Love, Delivered Fast.</p>
+    </header>
+
+    <section class="filters">
+        <h3>Filter Products</h3>
+        <label for="price">Price:</label>
+        <select id="price">
+            <option value="low">Low to High</option>
+            <option value="high">High to Low</option>
+        </select>
+
+        <label for="brand">Brand:</label>
+        <select id="brand">
+            <option value="apple">Apple</option>
+            <option value="samsung">Samsung</option>
+            <option value="sony">Sony</option>
+        </select>
+
+        <label for="features">Features:</label>
+        <select id="features">
+            <option value="wireless">Wireless</option>
+            <option value="waterproof">Waterproof</option>
+        </select>
+
+        <label for="design">Design:</label>
+        <select id="design">
+            <option value="sleek">Sleek</option>
+            <option value="rugged">Rugged</option>
+        </select>
+    </section>
+
+    <section class="product-grid">
+        <div class="product">
+            <img src="product1.jpg" alt="Product 1">
+            <h4>Product 1</h4>
+            <p>Price: $100</p>
+            <p>Brand: Apple</p>
+            <p>Features: Wireless</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="product2.jpg" alt="Product 2">
+            <h4>Product 2</h4>
+            <p>Price: $200</p>
+            <p>Brand: Samsung</p>
+            <p>Features: Waterproof</p>
+            <button>Add to Cart</button>
+        </div>
+        <!-- More products can be added similarly -->
+    </section>
+
+    <section class="shopping-cart">
+        <h3>Your Cart</h3>
+        <ul>
+            <li>Product 1 - $100</li>
+            <li>Product 2 - $200</li>
+            <!-- More items can be added dynamically -->
+        </ul>
+        <button>Proceed to Secure Payment</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Gadgets Store</p>
+    </footer>
+</body>
+</html>
